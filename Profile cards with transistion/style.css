@@ -1,0 +1,165 @@
+/** 
+Hello Future Developer Thanks for Using learningrobo.com, 
+Check our website Regularly For New Snippets Post.
+
+Share & Support us
+**/
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    margin: 0px;
+}
+.container{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: lightblue;
+}
+.container .main{
+    height: 90vh;
+    width: 90vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.container .main .g{
+    height: 55vh;
+    width: 20vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: lightskyblue;
+    padding: 20px;
+    gap: 5px;
+    border-radius: 20px;
+    border: 2px solid blue;
+    box-shadow: 0px 0px 5px 5px cadetblue;
+}
+#g1{
+    animation-name: move1;
+    animation-duration: 10s;
+    animation-timing-function: ease-in-out;
+    position: relative;
+}
+@keyframes move1 {
+    0%{background-color: rgb(154, 214, 252); right: 0px;}
+    50%{background-color: rgb(157, 157, 241); right:80px;}
+    100%{background-color: rgb(154, 214, 252); right: 0px;}
+}
+#g2{
+    animation-name: move2;
+    animation-duration: 10s;
+    animation-timing-function: ease-in-out;
+    position: relative;
+}
+@keyframes move2 {
+    0%{background-color: rgb(154, 214, 252); bottom: 0px;}
+    50%{background-color: rgb(157, 157, 241); bottom:120px;}
+    100%{background-color: rgb(154, 214, 252); bottom: 0px;}
+}
+#g3{
+    animation-name: move3;
+    animation-duration: 10s;
+    animation-timing-function: ease-in-out;
+    position: relative;
+}
+@keyframes move3 {
+    0%{background-color: rgb(154, 214, 252); top: 0px;}
+    50%{background-color: rgb(157, 157, 241); top:120px;}
+    100%{background-color: rgb(154, 214, 252); top: 0px;}
+}
+#g4{
+    animation-name: move4;
+    animation-duration: 10s;
+    animation-timing-function: ease-in-out;
+    position: relative;
+}
+@keyframes move4 {
+    0%{background-color: rgb(154, 214, 252); left: 0px;}
+    50%{background-color: rgb(157, 157, 241); left:80px;}
+    100%{background-color: rgb(154, 214, 252); left: 0px;}
+}
+.container .main .g .image{
+    height: 14vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container .main .g .image img{
+    height: 120px;
+    width: 100px;
+    border-radius: 50%;
+    border: 1px solid blue;
+}
+.container .main .g .name{
+    padding-top: 10px;
+    font-size: 18px;
+}
+.container .main .g .post{
+    font-size: 15px;
+}
+.container .main .g .desc{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-top: 20px;
+    font-size: 12px;
+    padding-bottom: 20px;
+    border-top: 1px solid blue;
+    border-bottom: 1px solid blue;
+}
+.container .main .g .links{
+    height: 5vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.container .main .g .links a{
+    color: #000;
+    font-size: 24px;
+}
+@media screen and (max-width:1024px) {
+    .container{
+        height: 280vh;
+    }
+    .container .main{
+        height: 250vh;
+        flex-direction: column;
+    }
+    #g1, #g2, #g3, #g4{
+        animation: none;
+        height: 100%;
+        width: 100%;
+        position: none;
+    }
+    .credit{
+        height: 3vh;
+    }
+}
+.credit a {
+    text-decoration: none;
+    color: #121212;
+    font-weight: 800;
+}
+  
+.credit {
+    height: 3vh;
+    color: #121212;
+    text-align: center;
+    margin-top: 10px;
+    font-family: Verdana,Geneva,Tahoma,sans-serif;
+}
+.credit span{
+    color:#000;
+    font-size:20px;
+}     

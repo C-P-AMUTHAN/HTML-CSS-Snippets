@@ -1,0 +1,117 @@
+/** 
+Hello Future Developer Thanks for Using learningrobo.com, 
+Check our website Regularly For New Snippets Post.
+
+Share & Support us
+**/
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vw;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(to right,rgb(231, 231, 171),rgb(255, 155, 42));
+}
+.container .mp{
+    display: flex;
+    flex-direction: column;
+    height: 3.8vh;
+    width: 80vw;
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+    position: relative;
+    overflow:hidden;
+    cursor: pointer;
+}
+.container .mp:hover{
+    height: 80vh;
+    transition: height ease-in-out 0.3s;
+}
+.container .mp .head{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 10vh;
+    width: 100%;
+    background-color: gold;
+    border-radius: 10px;
+}
+.container .mp .middle{
+    display: flex;
+    height: 80vh;
+    width: 100%;
+}
+.container .mp .a{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 30vw;
+    padding: 10px;
+    gap: 10px;
+}
+.container .mp .b, .c, .d, .e{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 12.5vw;
+    padding: 10px;
+    gap: 10px;
+}
+.container .mp .a .a1, .a6, .a7, .a8{
+    height: 12.5%;
+    width: 100%;
+}
+.container .mp  .b1, .c1, .d1, .e1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 12.5%;
+    width: 100%;
+    background-color: rgb(240, 240, 142);
+    border-radius: 20px;
+}
+.container .mp  .a2, .a3, .a4, .a5, .b1 ~ div, .c1 ~ div, .d1 ~ div, .e1 ~ div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 12.5%;
+    width: 100%;
+    background-color: white;
+}
+.container .mp .b4 ~ div  i, .c4 ~ div a i, .d4 ~ div a i, .e4 ~ div a i{
+    color: black;
+    font-size: 25px;
+}
+.container .mp .a2, .b2, .c2, .d2, .e2, .a3, .b3, .c3, .d3, .e3, .a4, .b4, .c4, .d4, .e4{
+    border-bottom: 2px solid gainsboro;
+}
+.container .mp .a ~ div:hover{
+    color: rgb(255, 102, 0);
+    transform: translate3d(10px, 10px, 10px);
+    cursor: pointer;
+}
+.credit a {
+    text-decoration: none;
+    color: #121212;
+    font-weight: 800;
+}
+.credit {
+    height: 10vh;
+    color: #121212;
+    text-align: center;
+    margin-top: 10px;
+    font-family: Verdana,Geneva,Tahoma,sans-serif;
+}
+.credit span{
+    color:#000;
+    font-size:20px;
+}     

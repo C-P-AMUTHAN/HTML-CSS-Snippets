@@ -1,0 +1,161 @@
+/** 
+Hello Future Developer Thanks for Using learningrobo.com, 
+Check our website Regularly For New Snippets Post.
+
+Share & Support us
+**/
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+    box-sizing: border-box;
+    font-family:Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+    background-color:rgb(247, 245, 238);
+    gap: 2vw;
+}
+.container > div{
+    display: flex;
+    flex-direction: column;
+    height: 80vh;
+    width: 25vw;
+    border: 1px solid gray;
+    border-radius: 10px;
+    gap: 10px;
+    padding: 30px;
+    box-shadow: 5px 5px silver;
+}
+.p1{
+    background-color: rgb(215, 244, 187);
+}
+.p2{
+    background-color: rgb(244, 207, 181);
+}
+.p3{
+    background-color: rgb(185, 205, 244);
+}
+.container > div .head{
+    padding-left: 10px;
+}
+.container > div .profile{
+    display: flex;
+    flex-direction: column;
+    height: 30vh;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.container > div .profile h3{
+    text-align: center;
+}
+.container > div .profile img{
+    height: 90px;
+    width: 90px;
+}
+.container > div .level{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 10vh;
+    width: 100%;
+}
+.container > div .level .h{
+    height: 5vh;
+}
+.container > div .level .levels{
+    display: flex;
+    height: 4%;
+    width: 80%;
+    gap: 5px;
+}
+.container > div .level .levels > div{
+    height: 100%;
+    width: 25%;
+    background-color: gray;
+}
+.container > div .notify{
+    display: flex;
+    height: 15vh;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 16px;
+}
+.p1 .notify{
+    background-color: chartreuse;
+}
+.p2 .notify{
+    background-color:chocolate;
+}
+.p3 .notify{
+    background-color:cornflowerblue;
+}
+.container > div .notify a{
+    font-size: 17px;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    align-items: center;
+    gap: 5px;
+}
+.container > div .content{
+    display: flex;
+    height: 15vh;
+    text-align: center;
+    justify-content: center;
+    border-bottom: 2px solid white;
+}
+.container > div .media{
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+.container > div .media a{
+    color: black;
+    font-size: 20px;
+}
+@media screen and (max-width:1024px){
+    .container > div .notify{
+        gap: 5px;
+    }
+}
+@media screen and (max-width: 820px){
+    .container{
+        padding: 20px;
+        height: auto;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .container > div{
+        width: 100%;
+    }
+    .container > div .notify{
+        gap: 30px;
+    }
+}
+.credit a {
+    text-decoration: none;
+    color: #121212;
+    font-weight: 800;
+}
+  
+.credit {
+    color: #121212;
+    text-align: center;
+    margin-top: 10px;
+    font-family: Verdana,Geneva,Tahoma,sans-serif;
+}
+.credit span{
+    color:#000;
+    font-size:20px;
+}  

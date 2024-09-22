@@ -1,0 +1,132 @@
+/** 
+Hello Future Developer Thanks for Using learningrobo.com, 
+Check our website Regularly For New Snippets Post.
+
+Share &amp; Support us
+**/
+*{
+    box-sizing: border-box;
+}
+body{
+    margin:0px;
+}
+.mp{
+    display: flex;
+    height: 100vh;
+    width: calc(100vw-40px);
+    background-color: orange;
+    align-items: center;
+    justify-content: center;
+    gap:40px;
+}
+.p1,.p2{
+    display: flex;
+    flex-wrap: wrap;
+    height: 447px;
+    width: 270px;
+    background-color: white;
+    box-shadow: 2px 2px 10px black;
+}
+.p1c1,.p2c1{
+    height: 50%;
+    width: 100%;
+    background-color: papayawhip;
+}
+.img2{
+    padding: 20px;
+    height:100%;
+    width:100%;
+}
+.img1{
+    height:100%;
+    width:100%;
+}
+.p1c2c1,.p2c2c1{
+    display: flex;
+    flex-wrap: wrap;
+    height: 60%;
+    width: 100%;
+    font-family: Calibri;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-left: 40px;
+    padding-right: 40px;
+    gap:10px;
+}
+.t1,.t2{
+    margin: 0px;
+    color: brown;
+}
+.dot1{
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    background-color: red;
+    display: inline-block;
+}
+.dot2{
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    background-color: blue;
+    display: inline-block;
+}
+.dot3{
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    background-color: orange;
+    display: inline-block;
+}
+.p1c2c2, .p2c2c2{
+    display: flex;
+    height: 40%;
+    width: 100%;
+    font-family: Calibri;
+    color: brown;
+    align-items: center;
+    justify-content: center;
+    gap:30px;
+}
+.b:hover{
+    background-color: lemonchiffon;
+}
+.b{
+    padding: 5px 15px;
+    text-align: center;
+    color: brown;
+    font-family: Calibri;
+    background-color: white;
+    border: 2px solid brown;
+    border-radius: 5px;
+    padding: 8px 32px;
+    font-size: 10px;
+    cursor: pointer;
+}
+@media screen and (max-width:630px) {
+    .mp{
+        flex-direction: column;
+        height:fit-content;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+}
+
+/* Write all css above this and delete this comment */
+.credit a {
+    text-decoration: none;
+    color: #121212;
+    font-weight: 800;
+}
+  
+.credit {
+    color: #121212;
+    text-align: center;
+    margin-top: 10px;
+    font-family: Verdana,Geneva,Tahoma,sans-serif;
+}
+.credit span{
+    color:#000;
+    font-size:20px;
+}     

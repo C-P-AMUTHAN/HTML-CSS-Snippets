@@ -1,0 +1,146 @@
+/** 
+Hello Future Developer Thanks for Using learningrobo.com, 
+Check our website Regularly For New Snippets Post.
+
+Share & Support us
+**/
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    margin: 0px;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+    background-color: black;
+}
+.container .main{
+    display: flex;
+    height: 90vh;
+    width: 90vw;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.container .main .g1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 90vh;
+    width: 30%;
+    gap: 20px;
+}
+.container .main .g1 .p1{
+    display: flex;
+    flex-direction: column;
+    height:21vh;
+    width: 100%;
+    background-image: linear-gradient(white, rgb(130, 128, 128));
+    gap: 6px;
+    overflow: hidden;
+    padding: 10px;
+    transition: height ease-in-out 0.20s;
+    border: 2px solid black;
+    border-radius: 20px;
+}
+.container .main .g1 .p1:hover{
+    height: 50vh;
+    box-shadow: 0px 0px 4px 4px white;
+}
+.container .main .g1 .p1 .image{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 15vh;
+    width: 100%;
+}
+.container .main .g1 .p1 .image img{
+    height: 100px;
+    width: 100px;
+}
+.container .main .g1 .p1 .name{
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.container .main .g1 .p1 .description{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 20vh;
+    width: 100%;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+.container .main .g1 .p1 .description span{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 13px;
+}
+.container .main .g1 .p1 .links{
+    height: 5vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.container .main .g1 .p1 .links a{
+    color: black;
+    display: flex;
+    text-decoration: none;
+}
+.container .main .g1 .p1 .links a i{
+    font-size: 25px;
+}
+@media screen and (max-width:800px) {
+    .container{
+        height: 150vh;
+        width: 100%;
+    }
+    .container .main{
+        height: 145vh;
+        flex-direction: column;
+        width: 100%;
+    }
+    .container .main .g1{
+        width: 90%;
+    }
+    .container .main .g1 .p1{
+        height: 18vh;
+    }
+    .container .credit{
+        height: 5vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+.container .credit a {
+    text-decoration: none;
+    color: white;
+    font-weight: 800;
+}
+.container .credit {
+    height: 3vh;
+    width: 100%;
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+    font-family: Verdana,Geneva,Tahoma,sans-serif;
+}
+.container .credit span{
+    color:white;
+    font-size:20px;
+}     
